@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>New Community Church Bangladesh</title>
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="imgs/logo1.png" alt="logo"></a>
+            </div>
+            <div class="bars">
+                <button onclick="myFunction()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#wel">Home</a></li>
+                    <li><a href="#ab">About</a></li>
+                    <li><a href="#det">Details</a></li>
+                    <li><a href="#emp">Employees</a></li>
+                    <li><a href="#eve">Events</a></li>
+                    <li><a href="#con">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="burger" style="display: none;">
+            <div class="xmark">
+                <button onclick="myFunction()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="nav-links2">
+                <ul>
+                    <li><a href="#wel">Home</a></li>
+                    <li><a href="#ab">About</a></li>
+                    <li><a href="#det">Details</a></li>
+                    <li><a href="#emp">Employees</a></li>
+                    <li><a href="#eve">Events</a></li>
+                    <li><a href="#con">Contact</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <!-- Welcome Section -->
+        <div class="welcome" id="wel">
+            <h1>
+                Welcome <br>
+                To<br>
+                Organization<br>
+                Bangladesh
+            </h1>
+        </div>
+        <!-- Image Slider -->
+        <div class="image-slider">
+            <div class="slides">
+                <img src="imgs/Banner1.jpeg" alt="Image 1">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="ab">
+        <h1 class="about-head">About Us</h1>
+        <div class="about-content">
+            <div class="details">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic eos ducimus, nulla architecto nam
+                    eaque
+                    aliquam nesciunt. Omnis nisi nemo, adipisci ipsum corrupti quo iste rem, cum dolorum enim
+                    cumque. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Enim placeat sunt impedit repellendus
+                    ducimus,
+                    temporibus alias adipisci assumenda cumque id ipsam at consequatur pariatur quae incidunt ut
+                    voluptates
+                    fugit sequi.</p>
+            </div>
+            <div class="story-image">
+                <img src="imgs/spicture.jpeg" alt="Story Image">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Details Section -->
+    <section class="details-section" id="det">
+        <h2 class="section-title">Details</h2>
+        <div class="stats-container">
+            <div class="stat">
+                <h3 class="stat-number">100</h3>
+                <p class="stat-label">Families Helped</p>
+            </div>
+            <div class="stat">
+                <h3 class="stat-number">1800</h3>
+                <p class="stat-label">People Helped</p>
+            </div>
+            <div class="stat">
+                <h3 class="stat-number">1000</h3>
+                <p class="stat-label">Books Distributed</p>
+            </div>
+            <div class="stat">
+                <h3 class="stat-number">600</h3>
+                <p class="stat-label">Bags Distributed</p>
+            </div>
+            <div class="stat">
+                <h3 class="stat-number">35%</h3>
+                <p class="stat-label">Area Covered</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Employee Section -->
+    <section class="employees" id="emp">
+        <h1 class="employees-head">Meet Our Team</h1>
+        <div class="employee-container">
+            <!-- Employee 1 -->
+            <div class="employee-card">
+                <img src="imgs/pp.png" alt="Employee 1" class="employee-photo">
+                <div class="employee-details">
+                    <h3 class="employee-name">John Doe</h3>
+                    <p class="employee-designation">Manager</p>
+                    <p class="employee-area">Dhaka</p>
+                </div>
+            </div>
+            <!-- Employee 2 -->
+            <div class="employee-card">
+                <img src="imgs/pp.png" alt="Employee 2" class="employee-photo">
+                <div class="employee-details">
+                    <h3 class="employee-name">Jane Smith</h3>
+                    <p class="employee-designation">Coordinator</p>
+                    <p class="employee-area">Chittagong</p>
+                </div>
+            </div>
+            <!-- Employee 3 -->
+            <div class="employee-card">
+                <img src="imgs/pp.png" alt="Employee 3" class="employee-photo">
+                <div class="employee-details">
+                    <h3 class="employee-name">Andrew Halt</h3>
+                    <p class="employee-designation">Field Officer</p>
+                    <p class="employee-area">Sylhet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Events Section -->
+    <section class="events" id="eve">
+        <h1 class="events-head">Upcoming Events</h1>
+        <div class="event-container">
+            <!-- Event 1 -->
+            <div class="event-card">
+                <img src="imgs/e1.jpg" alt="Event 1" class="event-photo">
+                <div class="event-details">
+                    <h3 class="event-title">Charity Drive</h3>
+                    <p class="event-location">Dhaka</p>
+                    <p class="event-type">Community Service</p>
+                </div>
+            </div>
+            <!-- Event 2 -->
+            <div class="event-card">
+                <img src="imgs/e2.jpg" alt="Event 2" class="event-photo">
+                <div class="event-details">
+                    <h3 class="event-title">Workshop on Education</h3>
+                    <p class="event-location">Chittagong</p>
+                    <p class="event-type">Educational</p>
+                </div>
+            </div>
+            <!-- Event 3 -->
+            <div class="event-card">
+                <img src="imgs/e3.jpg" alt="Event 3" class="event-photo">
+                <div class="event-details">
+                    <h3 class="event-title">Medical Camp</h3>
+                    <p class="event-location">Sylhet</p>
+                    <p class="event-type">Health</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="con">
+        <h1 class="contact-head">Contact Us</h1>
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p class="contact-item">
+                    <strong>Address:</strong> Somewhere
+                </p>
+                <p class="contact-item">
+                    <strong>Phone:</strong> +880 123-456-7890
+                </p>
+                <p class="contact-item">
+                    <strong>Email:</strong> info@organization.com
+                </p>
+            </div>
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" class="form-input" required>
+                    <input type="email" placeholder="Your Email" class="form-input" required>
+                    <textarea placeholder="Your Message" class="form-textarea" rows="5" required></textarea>
+                    <button type="submit" class="form-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("burger");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
